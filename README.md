@@ -180,7 +180,7 @@ The schema follows normalization principles to reduce redundancy and maintain da
 
 1. Clone the repository
 
-git clone https://github.com/yourusername/Placement-Portal.git
+git clone https://github.com/shivendubhonge184-hash/Short-run.git
 
 2. Import the project into Eclipse.
 
@@ -260,6 +260,32 @@ The database is normalized to reduce redundancy and maintain data integrity.
 - Intel Core i3
 - 4 GB RAM
 - 2 GB Storage
+
+  ## Project Statistics
+
+- Programming Language: Java
+- Frontend Pages: 30+
+- Java Servlets: 20+
+- Database Tables: 10+
+- Modules: 6
+- User Roles: 2
+- CRUD Modules: 5
+
+  ## Project Status
+
+🟢 Status: Completed
+
+Current Version: v1.0
+
+Deployment: Localhost (Apache Tomcat)
+
+Cloud Deployment: Planned
+
+## Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+Fork the repository, create a feature branch, and submit a Pull Request.
 
 ### Recommended
 
