@@ -1,4 +1,11 @@
 # Placement Preparation Portal
+## 📸 Project Screenshots
+### Student Dashboard
+<img width="1892" height="977" alt="Screenshot 2026-07-06 191825" src="https://github.com/user-attachments/assets/f34d3b75-fb46-4970-8bf0-2be569bf4e54" />
+### Coding Module
+<img width="1919" height="1021" alt="Screenshot 2026-07-04 194008" src="https://github.com/user-attachments/assets/ae2a5b78-d549-45ad-844e-4e4b7fac4700" />
+
+
 
 ## Overview
 
@@ -23,6 +30,28 @@ Students preparing for placements often rely on multiple websites and resources 
 * Improve placement preparation through structured learning.
 
 ---
+## Functional Modules
+
+### Student Module
+
+- Registration
+- Login
+- Dashboard
+- Aptitude Practice
+- Coding Practice
+- Study Materials
+- Community Discussion
+- Profile Management
+
+### Admin Module
+
+- Admin Login
+- Manage Students
+- Manage Aptitude Questions
+- Manage Coding Questions
+- Upload Study Materials
+- Manage Discussions
+- Dashboard
 
 ## Features
 
@@ -43,6 +72,31 @@ Students preparing for placements often rely on multiple websites and resources 
 * Performance Monitoring
 
 ---
+## Key Features
+
+✔ Secure Login Authentication
+
+✔ Session Management
+
+✔ Responsive User Interface
+
+✔ Company-wise Aptitude Questions
+
+✔ Coding Practice
+
+✔ Study Material Repository
+
+✔ Community Discussion Forum
+
+✔ Admin Dashboard
+
+✔ CRUD Operations
+
+✔ MySQL Database Integration
+
+✔ GitHub Version Control
+
+✔ Modular Architecture
 
 ## Technology Stack
 
@@ -54,8 +108,10 @@ Students preparing for placements often rely on multiple websites and resources 
 
 ### Backend
 
-* Java
-* Spring Boot
+
+- Java
+- JSP (JavaServer Pages)
+- Java Servlets
 
 ### Database
 
@@ -72,46 +128,124 @@ Students preparing for placements often rely on multiple websites and resources 
 
 ## System Architecture
 
-Frontend (HTML, CSS, JavaScript)
-↓
-Spring Boot Backend
-↓
-MySQL Database
+
+                Placement Preparation Portal
+                          │
+        ┌─────────────────┴─────────────────┐
+        │                                   │
+   Student Portal                     Admin Portal
+        │                                   │
+        └─────────────────┬─────────────────┘
+                          │
+                JSP Pages + Java Servlets
+                          │
+                    Business Logic Layer
+                          │
+                         JDBC
+                          │
+                      MySQL Database
+                      
+## Installation
+
+1. Clone the repository
+
+git clone https://github.com/yourusername/Placement-Portal.git
+
+2. Import the project into Eclipse.
+
+3. Install Apache Tomcat 11.
+
+4. Install MySQL Server.
+
+5. Import aptitude.sql into MySQL.
+
+6. Update database credentials inside the Java source files.
+
+7. Run the project on Apache Tomcat.
+
+8. Open:
+
+http://localhost:8080/Placement/
+
+## Project Structure
+
+Placement Portal
+│
+├── src/
+│   ├── servlet/
+│   ├── dao/
+│   ├── model/
+│
+├── WebContent/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   ├── uploads/
+│   ├── student/
+│   ├── admin/
+│
+├── build/
+│
+└── database/
+    └── aptitude.sql
 
 ---
 
-## Project Modules
+## Database Design
 
-1. User Management
-2. Aptitude Assessment
-3. Community Discussion
-4. Interview Experience Sharing
-5. Progress Tracking
-6. Admin Dashboard
+The project uses MySQL as the backend database.
 
----
+Main Tables:
 
-## Team Members
+- users
+- admin
+- companies
+- categories
+- questions
+- coding_questions
+- study_materials
+- discussion_posts
+- comments
+- quiz_attempts
 
-* Member 1 – Literature Survey, Documentation, User Management
-* Member 2 – Aptitude Assessment Module
-* Member 3 – Community Discussion, Interview Experience, Admin Dashboard
+The database is normalized to reduce redundancy and maintain data integrity.
 
----
+## Software Requirements
 
-## Project Status
+- Java JDK 21
+- Eclipse IDE
+- Apache Tomcat 11
+- MySQL 8.x
+- MySQL Workbench
+- Git
+- GitHub
+- ## Hardware Requirements
 
-🚧 Currently in Development
+Minimum:
 
-Week 1 Completed:
+- Intel Core i3 Processor
+- 4 GB RAM
+- 2 GB Free Storage
 
-* Literature Survey
-* Requirement Analysis
-* Technology Stack Selection
-* Module Finalization
-* Project Planning
+Recommended:
 
----
+- Intel Core i5/i7 Processor
+- 8 GB RAM
+- SSD Storage
+- ## Future Scope
+
+The following enhancements can be implemented:
+
+- AI-based Placement Recommendation
+- Online Code Compiler
+- Resume Builder
+- Mock Interview System
+- Company Recruitment Dashboard
+- Email Notifications
+- Mobile Application
+- Cloud Deployment
+- Performance Analytics Dashboard
+- AI Chatbot for Placement Guidance
 
 ## Future Enhancements
 
@@ -122,6 +256,20 @@ Week 1 Completed:
 * Resume Evaluation Module
 
 ---
+
+## Author
+
+Developed by
+
+Shivendu Bhonge
+
+B.Tech Computer Science & Engineering (Cyber Security & Forensics)
+
+MIT Art, Design and Technology University, Pune
+
+## Support
+
+For suggestions or queries, feel free to create an issue or contact the project maintainer through GitHub.
 
 ## License
 
