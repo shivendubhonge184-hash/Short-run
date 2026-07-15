@@ -144,7 +144,38 @@ Students preparing for placements often rely on multiple websites and resources 
                          JDBC
                           │
                       MySQL Database
-                      
+
+## Database Schema
+
+The database consists of multiple relational tables connected through primary and foreign keys.
+
+Major Tables:
+
+- Users
+- Admin
+- Categories
+- Questions
+- Coding Questions
+- Companies
+- Study Materials
+- Discussion Posts
+- Comments
+- Quiz Attempts
+
+The schema follows normalization principles to reduce redundancy and maintain data integrity.
+
+## 🔄 Project Workflow
+
+1. Student/Admin Login
+2. Authentication using Java Servlets
+3. Dashboard Access
+4. Aptitude Practice
+5. Coding Practice
+6. Study Material Access
+7. Community Discussions
+8. Performance Tracking
+9. Logout
+
 ## Installation
 
 1. Clone the repository
@@ -219,42 +250,39 @@ The database is normalized to reduce redundancy and maintain data integrity.
 - MySQL Workbench
 - Git
 - GitHub
-- ## Hardware Requirements
 
-Minimum:
+---
 
-- Intel Core i3 Processor
+## Hardware Requirements
+
+### Minimum
+
+- Intel Core i3
 - 4 GB RAM
-- 2 GB Free Storage
+- 2 GB Storage
 
-Recommended:
+### Recommended
 
-- Intel Core i5/i7 Processor
+- Intel Core i5/i7
 - 8 GB RAM
 - SSD Storage
-- ## Future Scope
-
-The following enhancements can be implemented:
+  
+## Future Scope
 
 - AI-based Placement Recommendation
 - Online Code Compiler
 - Resume Builder
+- Placement Readiness Score
+- Personalized Study Plans
+- Company-wise Roadmaps
+- Resume Evaluation
 - Mock Interview System
 - Company Recruitment Dashboard
-- Email Notifications
 - Mobile Application
+- Email Notifications
+- Performance Analytics
 - Cloud Deployment
-- Performance Analytics Dashboard
-- AI Chatbot for Placement Guidance
-
-## Future Enhancements
-
-* Coding Practice Module
-* Placement Readiness Score
-* Personalized Study Plans
-* Company-wise Preparation Roadmaps
-* Resume Evaluation Module
-
+- AI Chatbot
 ---
 
 ## Author
