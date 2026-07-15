@@ -198,29 +198,6 @@ git clone https://github.com/shivendubhonge184-hash/Short-run.git
 
 http://localhost:8080/Placement/
 
-## Project Structure
-
-Placement Portal
-│
-├── src/
-│   ├── servlet/
-│   ├── dao/
-│   ├── model/
-│
-├── WebContent/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   ├── uploads/
-│   ├── student/
-│   ├── admin/
-│
-├── build/
-│
-└── database/
-    └── aptitude.sql
-
----
 
 ## Database Design
 
