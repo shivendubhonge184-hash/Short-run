@@ -1,9 +1,15 @@
-# Placement Preparation Portal
+<img width="1913" height="1028" alt="Screenshot 2026-07-16 233251" src="https://github.com/user-attachments/assets/c2423402-7e70-429b-9d44-3373221f0e9b" /># Placement Preparation Portal
 ## 📸 Project Screenshots
 ### Student Dashboard
 <img width="1892" height="977" alt="Screenshot 2026-07-06 191825" src="https://github.com/user-attachments/assets/f34d3b75-fb46-4970-8bf0-2be569bf4e54" />
 ### Coding Module
 <img width="1919" height="1021" alt="Screenshot 2026-07-04 194008" src="https://github.com/user-attachments/assets/ae2a5b78-d549-45ad-844e-4e4b7fac4700" />
+### Aptitude Module
+<img width="1902" height="978" alt="image" src="https://github.com/user-attachments/assets/fa7b7aa4-aba9-475b-a87c-73120e6732a3" />
+### Community Module
+<img width="1916" height="1022" alt="image" src="https://github.com/user-attachments/assets/575879f8-6d18-4555-80e3-32fab1d2d2cb" />
+### Admin Dashboard
+<img width="1913" height="1028" alt="Screenshot 2026-07-16 233251" src="https://github.com/user-attachments/assets/87b34203-ac79-4c28-88ac-39e80f233ab2" />
 
 
 
