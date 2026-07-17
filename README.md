@@ -10,7 +10,8 @@
 <img width="1916" height="1022" alt="image" src="https://github.com/user-attachments/assets/575879f8-6d18-4555-80e3-32fab1d2d2cb" />
 ### Admin Dashboard
 <img width="1913" height="1028" alt="Screenshot 2026-07-16 233251" src="https://github.com/user-attachments/assets/87b34203-ac79-4c28-88ac-39e80f233ab2" />
-
+### project report(IEEE project)
+https://docs.google.com/document/d/1B0hlz_gsxVi84mp7iRs-DP0dbG1v9hYv/edit?usp=drive_link&ouid=117741606520535539119&rtpof=true&sd=true
 
 
 ## Overview
